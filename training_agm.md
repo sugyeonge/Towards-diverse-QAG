@@ -32,7 +32,7 @@ python agm_input.py --pq_file ${split}.source --summary ${split}.summary --write
 mv BART_QA/${split}.target AGM_raw #answer
 mv AGM_raw /path/to/fairseq/data
 ```
-
+<br/> 
 
 2. **Train AGM**
 
