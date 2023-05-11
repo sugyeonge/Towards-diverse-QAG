@@ -1,5 +1,5 @@
 # Question Generation (Training)
-
+###
 1. **Add interrogative-word indicator**
 
 ```bash
@@ -11,7 +11,7 @@ python add_wh.py --pa_file data/BART_QG/${split}.source --q_file data/BART_QG/${
 
 cp data/BART_QG/${split}.target data/QGM_raw/
 ```
-
+#
 2. **Train QGM**
 
 ```bash
@@ -43,5 +43,5 @@ fairseq-preprocess \
 
 sh ./train_qgm.sh
 ```
-
+#
 3. **Checkpoint output:** `./checkpoint_qg/checkpoint_best.pt`
