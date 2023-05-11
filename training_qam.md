@@ -12,7 +12,7 @@ python swap.py --qp_file data/BART_QA/${split}.source --write data/QAM_raw/${spl
 cp data/BART_QA/${split}.target data/QAM_raw/
 ```
 
-1. **Train QAM**
+2. **Train QAM**
 
 ```bash
 # Data Naming
@@ -44,4 +44,4 @@ fairseq-preprocess \
 sh ./train_qam.sh
 ```
 
-1. **Checkpoint output:** `./checkpoint_qa/checkpoint_best.pt`
+3. **Checkpoint output:** `./checkpoint_qa/checkpoint_best.pt`
