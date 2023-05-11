@@ -1,6 +1,7 @@
 # Answer Generation (Training)
 
 ###
+###
 
 1. **Get summaries**
 
@@ -34,7 +35,7 @@ mv BART_QA/${split}.target AGM_raw #answer
 mv AGM_raw /path/to/fairseq/data
 ```
 ###
-
+###
 2. **Train AGM**
 
 ```bash
@@ -70,6 +71,6 @@ fairseq-preprocess \
 # train
 sh ./train_agm.sh
 ```
-
+###
 ###
 3. **Checkpoint output:** `./checkpoint_bart_sum_a/checkpoint_best.pt`
