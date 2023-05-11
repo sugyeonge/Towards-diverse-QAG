@@ -115,39 +115,39 @@ sh ./inference.sh /path/to/story/${story}.txt ${device}
 1. there was once upon a time a king who had a wife with golden hair , and she was so beautiful that you could n't find anyone like her in the world . it happened that she fell ill , and when she felt that she must soon die , she sent for the king , and said , ' if you want to marry after my death , make no one queen unless she is just as beautiful as i am , and has just such golden hair as i have . promise me this . ' after the king had promised her this , she closed her eyes and died . for a long time the king was not to be comforted , and he did not even think of taking a second wife . at last his councillors said , ' the king must marry again , so that we may have a queen . ' so messengers were sent far and wide to seek for a bride equal to the late queen in beauty . but there was no one in the wide world , and if there had been she could not have had such golden hair . then the messengers came home again , not having been able to find a queen . 
 
     
-    `[Generated Results1]`
+    `[Generated QA1]`
     Q: what did the queen tell the king to do if he wanted to marry after her death ?
     A: make no one queen unless she is just as beautiful as she is, and has just such golden hair as she has .
     
-    `[Generated Results2]`
+    `[Generated QA2]`
     
     Q: who was sent far and wide to seek for a bride equal to the late queen in beauty ?
     A: messengers . .
     
-    `[Generated Results3]`
+    `[Generated QA3]`
     Q: what happened to the queen after the king promised her this ?
     A: she closed her eyes and died .
     
-    `[Generated Results4]`
+    `[Generated QA4]`
     Q: why were messengers sent far and wide ?
     A: to seek for a bride equal to the late queen in beauty .
     
 2. now , the king had a daughter , who was just as beautiful as her dead mother , and had just such golden hair . one day when she had grown up , her father looked at her , and saw that she was exactly like her mother , so he said to his councillors , ' i will marry my daughter to one of you , and she shall be queen , for she is exactly like her dead mother , and when i die her husband shall be king . ' but when the princess heard of her father 's decision , she was not at all pleased , and said to him , ' before i do your bidding , i must have three dresses ; one as golden as the sun , one as silver as the moon , and one as shining as the stars .
     
-    `[Generated Results1]`
+    `[Generated QA1]`
     
     Q: why did the king decide to marry his daughter to one of the councillors ?
     A: she was exactly like her dead mother and when she died her husband shall be king . 
     
-    `[Generated Results2]`
+    `[Generated QA2]`
     Q: what happened when the daughter grew up ?
     A: her father looked at her, and saw that she was exactly like her mother .
     
-    `[Generated Results3]`
+    `[Generated QA3]`
     Q: why did the princess feel when she heard of her father's decision ?
     A: not at all pleased .
     
-    `[Generated Results1]`
+    `[Generated QA4]`
     Q: who was just as beautiful as her dead mother, and had just such golden hair ?
     A: the king's daughter .
     
