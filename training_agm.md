@@ -32,7 +32,7 @@ mv BART_QA/${split}.target AGM_raw #answer
 mv AGM_raw /path/to/fairseq/data
 ```
 
-1. **Train AGM**
+2. **Train AGM**
 
 ```bash
 cd /path/to/fairseq
@@ -68,4 +68,4 @@ fairseq-preprocess \
 sh ./train_agm.sh
 ```
 
-1. **Checkpoint output:** `./checkpoint_bart_sum_a/checkpoint_best.pt`
+3. **Checkpoint output:** `./checkpoint_bart_sum_a/checkpoint_best.pt`
