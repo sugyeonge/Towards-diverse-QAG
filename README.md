@@ -1,6 +1,7 @@
 # Towards Diverse and Effective Question-Answer Pair Generation from Storybooks
 
 This repository contains the source code and instructions to reproduce our paper, “Towards Diverse and Effective Question-Answer Pair Generation from Children Storybooks” (ACL 2023 - Findings)
+
 Paper link: (Will be published)
 
 ---
@@ -70,19 +71,19 @@ We propose an effective QAGen framework that enhances diversity and quality in t
 
 (1) Answer Generation
 
-#[Answer Generation (Training)](https://github.com/sugyeonge/Towards-diverse-QAG/blob/master/training_agm.md)
+#[Answer Generation (Training)](training_agm.md)
 
 (2) Question Generation
 
-[Question Generation (Training)](-)
+[Question Generation (Training)](training_qgm.md)
 
 (3) Question Answering
 
-[Question Answering (Training)](-)
+[Question Answering (Training)](training_qam.md)
 
 (4) Ranking model
 
-[Ranking model (Training)](-)
+[Ranking model (Training)](training_ranker.md)
 
 ---
 
@@ -161,5 +162,5 @@ sh ./inference.sh /path/to/story/${story}.txt ${device}
 
 ## Great thanks
 
-- Our framework is based on the [Fairseq]([https://github.com/facebookresearch/fairseq](https://github.com/facebookresearch/fairseq)) and [HuggingFace]([https://github.com/huggingface/transformers](https://github.com/huggingface/transformers))
-- We thank the authors for sharing the [QFS]([https://github.com/salesforce/query-focused-sum.git](https://github.com/salesforce/query-focused-sum.git)) model
+- Our framework is based on the [Fairseq](https://github.com/facebookresearch/fairseq) and [HuggingFace](https://github.com/huggingface/transformers)
+- We thank the authors for sharing the [QFS](https://github.com/salesforce/query-focused-sum.git) model
