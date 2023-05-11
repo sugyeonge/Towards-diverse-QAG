@@ -1,5 +1,5 @@
 # Question Answering (Training)
-
+###
 1. **Format data**
 
 ```bash
@@ -11,7 +11,7 @@ python swap.py --qp_file data/BART_QA/${split}.source --write data/QAM_raw/${spl
 
 cp data/BART_QA/${split}.target data/QAM_raw/
 ```
-
+#
 2. **Train QAM**
 
 ```bash
@@ -43,5 +43,5 @@ fairseq-preprocess \
 
 sh ./train_qam.sh
 ```
-
+#
 3. **Checkpoint output:** `./checkpoint_qa/checkpoint_best.pt`
