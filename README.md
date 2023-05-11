@@ -154,7 +154,7 @@ sh ./inference.sh /path/to/story/${story}.txt ${device}
 
 ---
 
-## Reference
+## Citation
 
 - Please cite our paper if you use our framework:
 
