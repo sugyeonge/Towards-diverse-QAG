@@ -1,0 +1,8 @@
+scipy
+torch
+transformers
+datasets
+nltk
+torchmetrics
+pandas
+sacrebleu
