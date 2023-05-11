@@ -1,12 +1,13 @@
-# Diverse-enhanced QAGen
+# Towards Diverse and Effective Question-Answer Pair Generation from Storybooks
 
-This repository contains the source code and instructions to reproduce our paper, “Towards Diverse and Effective Question-Answer Pair Generation from Children Storybooks”
+This repository contains the source code and instructions to reproduce our paper, “Towards Diverse and Effective Question-Answer Pair Generation from Children Storybooks” (ACL 2023 - Findings)
+Paper link: (Will be published)
 
 ---
 
 ## Overview
 
-We propose an effective QAGen framework that enhances diversity and quality in the QA pair generation. Our framework consists of a QFS-based answer generator, iterative QA generator, and relevancy-aware ranker. The overall QAGen process of our framework:
+We propose an effective QAGen framework that enhances diversity and quality in the QA pair generation. Our framework consists of a QFS-based answer generator, iterative QA generator, and relevancy-aware ranker. The overall QAG process of our framework is as below:
 
 ![Figure](figure.jpg)
 
@@ -39,7 +40,7 @@ We propose an effective QAGen framework that enhances diversity and quality in t
     mv for_QFS/* /path/to/query-focused-sum/multiencoder
     ```
     
-- FairytaleQA dataset download
+- FairytaleQA dataset
     
     ```bash
     # Dataset(for training) download
@@ -47,7 +48,7 @@ We propose an effective QAGen framework that enhances diversity and quality in t
     mv FairytaleQA_QAG_System/Fine-tune_BART/data /path/to/fairseq/data
     ```
     
-- BART-large model download
+- BART-large model
     
     ```bash
     # Download BPE
@@ -69,7 +70,7 @@ We propose an effective QAGen framework that enhances diversity and quality in t
 
 (1) Answer Generation
 
-#[Answer Generation (Training)](-)
+#[Answer Generation (Training)](https://github.com/sugyeonge/Towards-diverse-QAG/blob/master/training_agm.md)
 
 (2) Question Generation
 
