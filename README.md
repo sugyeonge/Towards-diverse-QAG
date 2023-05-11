@@ -71,7 +71,7 @@ We propose an effective QAGen framework that enhances diversity and quality in t
 
 (1) Answer Generation
 
-#[Answer Generation (Training)](training_agm.md)
+[Answer Generation (Training)](training_agm.md)
 
 (2) Question Generation
 
