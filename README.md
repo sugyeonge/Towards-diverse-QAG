@@ -8,7 +8,7 @@ This repository contains the source code and instructions to reproduce our paper
 
 We propose an effective QAGen framework that enhances diversity and quality in the QA pair generation. Our framework consists of a QFS-based answer generator, iterative QA generator, and relevancy-aware ranker. The overall QAGen process of our framework:
 
-![Figure](fig_ov.png)
+![Figure](figure.jpg)
 
 ---
 
