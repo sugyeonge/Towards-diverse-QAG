@@ -1,5 +1,4 @@
 # Answer Generation (Training)
-
 <br/> <br/> 
 1. **Get summaries**
 
