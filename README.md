@@ -71,19 +71,19 @@ We propose an effective QAGen framework that enhances diversity and quality in t
 
 (1) Answer Generation
 
-[Answer Generation (Training)](training_agm.md)
+[Answer Generation (Training)](agm.md)
 
 (2) Question Generation
 
-[Question Generation (Training)](training_qgm.md)
+[Question Generation (Training)](qgm.md)
 
 (3) Question Answering
 
-[Question Answering (Training)](training_qam.md)
+[Question Answering (Training)](qam.md)
 
 (4) Ranking model
 
-[Ranking model (Training)](training_ranker.md)
+[Ranking model (Training)](ranker.md)
 
 ---
 
