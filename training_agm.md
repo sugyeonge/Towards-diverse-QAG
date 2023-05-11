@@ -33,7 +33,7 @@ python agm_input.py --pq_file ${split}.source --summary ${split}.summary --write
 mv BART_QA/${split}.target AGM_raw #answer
 mv AGM_raw /path/to/fairseq/data
 ```
-<br/> <br/> 
+###
 
 2. **Train AGM**
 
@@ -71,5 +71,5 @@ fairseq-preprocess \
 sh ./train_agm.sh
 ```
 
-<br/> <br/> 
+###
 3. **Checkpoint output:** `./checkpoint_bart_sum_a/checkpoint_best.pt`
