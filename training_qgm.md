@@ -12,7 +12,7 @@ python add_wh.py --pa_file data/BART_QG/${split}.source --q_file data/BART_QG/${
 cp data/BART_QG/${split}.target data/QGM_raw/
 ```
 
-1. **Train QGM**
+2. **Train QGM**
 
 ```bash
 # Data Naming
@@ -44,4 +44,4 @@ fairseq-preprocess \
 sh ./train_qgm.sh
 ```
 
-1. **Checkpoint output:** `./checkpoint_qg/checkpoint_best.pt`
+3. **Checkpoint output:** `./checkpoint_qg/checkpoint_best.pt`
