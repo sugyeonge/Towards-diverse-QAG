@@ -2,7 +2,7 @@
 
 This repository contains the source code and instructions to reproduce our paper, “Towards Diverse and Effective Question-Answer Pair Generation from Children Storybooks” (ACL 2023 - Findings)
 
-Paper link: (Will be published)
+Paper link: https://aclanthology.org/2023.findings-acl.380/
 
 ---
 
@@ -157,7 +157,12 @@ sh ./inference.sh /path/to/story/${story}.txt ${device}
 ## Citation
 
 - Please cite our paper if you use our framework:
-
+@article{eo2023towards,
+  title={Towards Diverse and Effective Question-Answer Pair Generation from Children Storybooks},
+  author={Eo, Sugyeong and Moon, Hyeonseok and Kim, Jinsung and Hur, Yuna and Kim, Jeongwook and Lee, Songeun and Chun, Changwoo and Park, Sungsoo and Lim, Heuiseok},
+  journal={arXiv preprint arXiv:2306.06605},
+  year={2023}
+}
 ---
 
 ## Great thanks
